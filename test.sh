@@ -22,5 +22,9 @@ printf "$u@$srv:~"
     echo "$Y" >> $output_file
     sed '/^$/d' $output_file > fixed.txt
     mv fixed.txt output.txt
+      if [[ $Y = *ls* ]];
+        then
+          echo ".  .."
+      fi
 done
 
