@@ -26,9 +26,18 @@ next stage is to react to certain commands as if they worked for example ls will
 
 .  ..  Backup
 
+* Now responds to ls you can customize and add your own.
+
+* Logs user input of "Hackers"!
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~
+Future Releases?
+The next version will be smarter and allow a few guesses 1st.
+
+Hopefully can properly imatate a real ssh response, also 
+instead of having to use nc.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 nc -l 1234
 
@@ -40,24 +49,6 @@ nc ip port
 
 
 
-Extra For nc
-
-https://www.varonis.com/blog/netcat-commands
-
-
-nc -l -p 1299
-
-nc localhost 1299
-
-nc -l -p 1234 -k --sh-exec ./test.sh
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-reverse shell
-
-nc -n -v -l -p 5555 -e /bin/bash
-
-nc -n -v -l -p 1234 -e test.sh
 
 
 
