@@ -40,6 +40,7 @@ nc ip port
 
 
 
+Extra For nc
 
 https://www.varonis.com/blog/netcat-commands
 
