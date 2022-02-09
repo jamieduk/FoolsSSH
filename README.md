@@ -1,9 +1,13 @@
+# FoolsSSH (Solo Blue Team Tools)
+
 The SSHFool concept is to pretend to be ssh server while tracking would be hackers methods,
-and commands they use can be logged along with there ip.
+and commands they use can be logged along with there real ip (hopefully).
 
-First plan is to listen on a port
+First plan is to listen on a port (it randomizes by default)!
 
-# FoolsSSH
+You need both files with executable perms to make it work.
+
+client side ("Hacker") can connect via nc on a port of your choising and every keystroke can be logged!
 
 sudo chmod +x *.sh
 
