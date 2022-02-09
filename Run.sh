@@ -11,6 +11,6 @@ while true
 do
     echo "Running Listener On Port $port"
     sudo socat -lf log.txt TCP4-LISTEN:$port EXEC:./test.sh
-    sleep 10
+    sleep 1
 done
 
