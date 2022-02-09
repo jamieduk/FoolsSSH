@@ -1,4 +1,4 @@
-# FoolsSSH (Solo Blue Team Tools)
+# FoolSSH (Solo Blue Team Tools)
 
 The SSHFool concept is to pretend to be ssh server while tracking would be hackers methods,
 and commands they use can be logged along with there real ip (hopefully).
